@@ -420,12 +420,12 @@ services:
       networks:
         frontend:
           aliases:
-            - congtuyendung.theworkpc.com
-            - api-congtuyendung.theworkpc.com
+            - tctccqdt.test
+            - api.tctccqdt.test
         backend:
           aliases:
-            - congtuyendung.theworkpc.com
-            - api-congtuyendung.theworkpc.com
+            - tctccqdt.test
+            - api.tctccqdt.test
 
 ### OpenResty Server #########################################
     openresty:
